@@ -17,6 +17,5 @@ System.out.println (tab);
 i=i+1;6
 
 }
-}
-while (n!=0);
+}while (n!=0);
 }}
