@@ -1,21 +1,18 @@
-
 import java.io.*;
-public class es10 {
+public class es12 {
 public static void main (String[] args) throws Exception{
 BufferedReader input = new BufferedReader (new InputStreamReader(System.in));
-int n;
-int tab;
-
+int num;
 do{
 System.out.println ("dammi il numero ");
 String str= input.readLine();
-n=Integer.parseInt(str);
-int i=0;
-while(i<=10){ 
-tab=n*i;
-System.out.println (tab);
-i=i+1;
-
+num=Integer.parseInt(str);
+if(num%5==0){
+if(num-5== num%10){
+System.out.println ("contiene la cifra 5");    
 }
-}while (n!=0);
+}
+}while(num!=-1);
+
 }}
+
